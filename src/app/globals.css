@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: oklch(42.4% 0.199 265.638);
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --font-inter: var(--font-inter);
+
+  --gradient-accent-linear: linear-gradient(to top, var(--color-blue-200), var(--color-white));
+  --gradient-accent-linear-soft: linear-gradient(to top, var(--color-blue-100), var(--color-white));
+  --gradient-accent-radial: radial-gradient(circle at 50% 0%, var(--color-blue-200) 0%, var(--color-white) 40%);
+}
+
+@utility container {
+  @apply w-full mx-auto px-8 sm:max-w-[610px] md:max-w-[840px] lg:max-w-[1124px] xl:max-w-[1420px];
+}
