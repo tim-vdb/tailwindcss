@@ -1,4 +1,4 @@
-# Tailwind exo3 — Reproduction d'une page Pricing & Testimonials
+# Tailwind CSS — Reproduction d'une page Design Pixel PowerHouse
 
 Ce projet est une reproduction responsive d'une [landing page](https://dribbble.com/shots/26292700-Website-Landing-Page-Design-Pixel-Powerhouse) contenant une grille de plans (pricing) et une section de témoignages (testimonials), réalisée avec Next.js (app directory) et Tailwind CSS. L'objectif était d'appliquer les bonnes pratiques d'ergonomie, d'accessibilité et d'architecture CSS moderne.
 
